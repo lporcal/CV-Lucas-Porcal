@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="estilos.proyecto.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<link rel="icon" type="image/x-icon" href="Iconos/Icono CV.ico" />
+<!--Imagen tomada de https://www.flaticon.es/icono-gratis/curriculum-vitae_909314
+Icono generado con https://iconifier.net/-->
+
+<body>
+
+    <!--Barra de Navegación tomado de Bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#Inicio">Inicio</a>
+                    <a class="nav-link" href="javascript:ventanaAuxiliar('experiencia.laboral.html')">Experiencia
+                        Laboral</a>
+                    <a class="nav-link" href="javascript:ventanaAuxiliar('capacitacionesycursos.html')">Cursos y
+                        Capacitaciones</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>-->
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-3">
+        <h2 id="Inicio">CURRICULUM VITAE ONLINE</h2>
+    </div>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Lucas Porcal</h1>
+            </div>
+            <div class="col-md-6">                
+                <img src="Imagenes/curriculo.jpg" height="200px" width="150px" alt="La imagen no ha podido descargarse">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h3>Información Personal</h3>
+        <ul>
+            <li>Nacionalidad: Argentino</li>
+            <li>Fecha de Nacimiento: 01/11/1986</li>
+            <li>Dirección: Las Acacias 551, General Deheza, Córdoba</li>
+            <li>Telefono: 358 4817343</li>
+            <li>E-mail: lucas_porcal@hotmail.com</li>
+        </ul>
+    </div>
+    <div>
+        <div class="container my-4">
+            <div class="row">
+
+                <div class="col-md-6 my-2">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button" id="Boton 1">
+                            <h3>Educación</h3>
+                        </button>
+                        
+                        <div>
+                            <ul id="Educación">
+
+                                <li class="class1">Universitaria:</li>
+                                <li class="class3">Universidad Nacional de Río Cuarto: Ingeniero Químico.</li>
+                                <li class="class2">Periodo: 2005 - 2012</li>
+                                <li class="class1">Secundaria:</li>
+                                <li class="class3">IPEM 259 Ambrosio Olmos (Ex Industrial) - Río Cuarto, Cba</li>
+                                <li class="class1">Primaria:</li>
+                                <li class="class3">Colegio San Buenaventura - Río Cuarto, Cba / Colegio Normal Justo
+                                    José de Urquiza - Río Cuarto, Cba</li>
+                            </ul>
+                        </div>
+
+                        <button class="btn btn-primary" type="button" id="Boton 2">
+                            <h3>Experiencia Laboral</h3>
+                        </button>
+                        <div>
+                            <ul id="Experiencia Laboral">
+
+                                <li class="class1">Aceitera General Deheza S.A. Planta de Refinería</li>
+                                <li class="class4">Supervisor de Producción de Refinería</li>
+                                <li class="class2">Periodo: 2016 - Actualidad</li>
+                                <button class="btn btn-secundary" type="button" id="T1">
+                                    <a href="javascript:ventanaAuxiliar('experiencia.laboral.html#div 1')">más info</a>
+                                </button>
+
+                                <li class="class4">Asistente de operaciones de Refinería</li>
+                                <li class="class2">Periodo: Diciembre 2013 a Noviembre 2016 (3 años)</li>
+                                <button class="btn btn-secundary" type="button" id="T2">
+                                    <a href="javascript:ventanaAuxiliar('experiencia.laboral.html#div 2')">más info</a>
+                                </button>
+
+                                <li class="class4">Programa Jovenes Profesionales</li>
+                                <li class="class2">Periodo: Abril 2012 a Julio 2013 (1 año y 4 meses)</li>
+                                <button class="btn btn-secundary" type="button" id="T3">
+                                    <a href="javascript:ventanaAuxiliar('experiencia.laboral.html#div 3')">más info</a>
+                                </button>
+
+                                <li class="class1">Promaiz S.A.:</li>
+                                <li class="class4">Apoyo a puesta en marcha / Supervisor / Panel de Control</li>
+                                <li class="class2">Periodo: Julio 2013 a Diciembre 2013 (6 meses)</li>
+                                <button class="btn btn-secundary" type="button" id="T4">
+                                    <a href="javascript:ventanaAuxiliar('experiencia.laboral.html#div 4')">más info</a>
+                                </button>
+
+                                <li class="class1">Central Termoeléctrica Generación Mediterránea Modesto Maranzana</li>
+                                <li class="class4">Pasantía en planta de tratamiento de agua para uso en caldera.</li>
+                                <li class="class2">Periodo: Abril 2011 a Junio 2011 (3 meses)</li>
+                                <button class="btn btn-secundary" type="button" id="T5">
+                                    <a href="javascript:ventanaAuxiliar('experiencia.laboral.html#div 5')">más info</a>
+                                </button>
+
+                            </ul>
+                        </div>
+
+                        <button class="btn btn-primary" type="button" id="Boton 3">
+                            <h3>Capacitaciones y Cursos</h3>
+                        </button>
+                        <div>
+                            <ul id="Capacitaciones y Cursos">
+
+                                <li class="class1">Cursos en calidad de Disertante</li>
+                                    <li class="class4">“Jornada de Graduados 2015”</li>
+                                    <li class="class2">Río Cuarto. Cba. Año 2015</li>
+                                    <button class="btn btn-secundary" type="button" id="C1">
+                                        <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 1')">más info</a>
+                                    </button>
+                                                                    
+                                    <li class="class4">“Jornadas Institucionales 2013"</li>
+                                    <li class="class2">General Deheza. Cba. Año 2013</li>
+                                    <button class="btn btn-secundary" type="button" id="C2">
+                                        <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 2')">más info</a>
+                                    </button>
+
+                                <li class="class1">Curso en calidad de Asistente</li>
+                                    <li class="class4">SeProgramar</li>
+                                    <li class="class2">Año 2022</li>
+                                    <button class="btn btn-secundary" type="button" id="C3">
+                                        <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 3')">más info</a>
+                                    </button>
+ 
+                                <li class="class4">Refinación de Aceites Vegetales</li>
+                                <li class="class2">General Deheza. Cba. Año 2015</li>
+                                <button class="btn btn-secundary" type="button" id="C4">
+                                    <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 4')">más info</a>
+                                </button>
+                                
+                                <li class="class4">GC-04 planificación para la implementación de un sistema de gestión
+                                    de la calidad IRAM ISO 9001</li>
+                                <li class="class2">Río Cuarto. Cba. Año 2011</li>
+                                <button class="btn btn-secundary" type="button" id="C5">
+                                    <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 5')">más info</a>
+                                </button>
+
+                                <li class="class4">Elaboración de vino</li>
+                                <li class="class2">Córdoba. Año 2011</li>
+                                <button class="btn btn-secundary" type="button" id="C6">
+                                    <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 6')">más info</a>
+                                </button>
+ 
+                                <li class="class4">Ingenieria Ambiental</li>
+                                <li class="class2">Rio Cuarto. Cba. Año 2010</li>
+                                <button class="btn btn-secundary" type="button" id="C7">
+                                    <a href="javascript:ventanaAuxiliar('capacitacionesycursos.html#Cap 7')">más info</a>
+                                </button>
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-2">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-primary" type="button" id="Boton 4">
+                            <h3>Habilidades</h3>
+                        </button>
+                        <div>
+                            <ul id="Habilidades">
+                                <li class="class1">Informática</li>
+                                <li class="class4">Herramientas Office</li>
+                                <li class="class3">Excel, Word, Power Point, Outlook. Nivel avanzado</li>
+
+                                <li class="class4">Programas de Diseño:</li>
+                                <li class="class3">Autocad. SketchUp. Nivel intermedio</li>
+
+                                <li class="class4">Programación</li>
+                                <li class="class3">Software de simulación Pro II, Chemcad, Hint, Matlab. Nivel básico
+                                </li>
+
+                                <li class="class4">Otros Programas</li>
+                                <li class="class3">Microstrategy. Nivel intermedio</li>
+
+                                <li class="class1">Idioma</li>
+                                <li class="class4">Ingles:</li>
+                                <li class="class3">Oral: Nivel básico</li>
+                                <li class="class3">Escrito: Nivel básico</li>
+                                <li class="class3">Lectura: Nivel intermedio</li>
+
+                            </ul>
+                        </div>
+
+                        <button class="btn btn-primary" type="button" id="Boton 5">
+                            <h3>Intereses</h3>
+                        </button>
+                        <div>
+                            <ul id="Intereses">
+                                <li class="class1">Deportes</li>
+                                <li class="class1">Música</li>
+                            </ul>
+                        </div>
+
+                        <button class="btn btn-primary" type="button" id="Boton 6">
+                            <h3>Referencias</h3>
+                        </button>
+                        <div>
+                            <ul id="Referencias">
+                                <li class="class1">Referencia 1:</li>
+                                <li class="class3">Puesto:</li>
+                                <li class="class3">Contacto:</li>
+                                <li class="class1">Referencia 2:</li>
+                                <li class="class3">Puesto:</li>
+                                <li class="class3">Contacto:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <h3 id="notapersonal">Nota Personal</h3>
+        <!--Nota personal ejemplo tomado de "https://zety.es/blog/descripcion-personal-curriculum#" -->
+        <p> Mi objetivo es obtener experiencia en el area. Cuento con habilidades de cara a la
+            comunicación, al trabajo en equipo y al aprendizaje rápido</p>
+
+        <footer>Fecha ultima actualización CV: Febrero 2023</footer>
+
+    </div>
+
+    <script src="programa.proyectofinal.js"></script>
+
+    <!--Bootstrap para funcionamiento de la barra de navegación-->
+    <script src="//cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
