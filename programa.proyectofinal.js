@@ -104,12 +104,12 @@ function ocultartodoslosdivs(){
 }
 
 //Funcion mostrar todos los divs
-//function mostrartodoslosdivs(){
-  //  divs.forEach(function (divn) {    
-    //    document.getElementById(divn).classList.remove ("oculto");
-      //  document.getElementById(divn).classList.add ("visible");
-  //  });
-//}
+function mostrartodoslosdivs(){
+    divs.forEach(function (divn) {    
+        document.getElementById(divn).classList.remove ("oculto");
+        document.getElementById(divn).classList.add ("visible");
+    });
+}
 
 //Funcion mostrar div asociado al trabajo seleccionado
 function mostrardiv(trabajo){
