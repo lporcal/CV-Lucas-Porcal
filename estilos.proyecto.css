@@ -1,77 +1,215 @@
-body{
-    background: #C9D6FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
- 
+body {
+    background: #d9dad5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d9dad5, #212122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d9dad5, #1a2003);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h2{
-    border: 1px solid black;
+h1 {
+    font-style: italic;
 }
 
-.container{
+.container {
     text-align: center;
 }
 
-.row{
+.fondoimagen {
+    background-image: url(Imagenes/Promaiz\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.fondoimagen2 {
+    background-image: url(Imagenes/Hexagonos.avif);
+    background-size: contain;
+    background-repeat: repeat-y;
+    opacity: 1;
+}
+
+.fondoimagen3 {
+    background-image: url(Imagenes/Hexagonos.avif);
+    background-size: 100%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.contacto {
+    float: right;
+}
+
+.cajanegra {
+    background-color: black;
+}
+
+.botonicono {
+    height: 65px;
+    width: 65px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.colorlinea {
+    color: rgba(225, 243, 62, 0.938);
+    size: 100px;
+}
+
+.infopersonal {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.infopersonal2 {
+    border-top-color: black;
+}
+
+.cajabotones {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.negritacursiva {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.negritacursiva2 {
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.letrafija {
+    color: rgb(15, 15, 15);
+}
+
+.letraclara {
+    color: rgba(225, 243, 62, 0.938);
+    float: right;
+}
+
+.letragris {
+    color: rgb(22, 37, 37);
+}
+
+.letragris:hover {
+    color: rgba(225, 243, 62, 0.938);
+}
+
+.letragris:active {
+    color: rgba(225, 243, 62, 0.938);
+}
+
+.letragris {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+
+.letranegra {
+    color: black;
+}
+
+.letranegra:hover {
+    color: rgba(225, 243, 62, 0.938);
+}
+
+.letranegra:active {
+    color: rgba(225, 243, 62, 0.938);
+}
+
+.letranegra {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.1s;
+}
+
+.row {
     align-items: center;
 }
 
-#notapersonal{
+#notapersonal {
     margin-top: 30px;
 }
 
-p{
+p {
     padding-left: 20px;
     padding-right: 20px;
     font-style: italic;
 }
 
-footer{
+footer {
     text-align: right;
 }
 
-img{
+img {
     border: 1px solid black;
 }
 
-.class1{
+.class1 {
     text-align: left;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.class2{
-    text-align:end;
+.class2 {
+    text-align: end;
     font-style: italic;
 }
 
-.class3{
-    text-align:justify;
+.class3 {
+    text-align: justify;
 }
 
-.class4{
-    text-align:left;
+.class4 {
+    text-align: left;
     text-decoration: underline;
 }
 
-ul{
+ul {
     list-style-type: none;
     border: 1px black;
     margin: 5px;
 }
 
-.visible{
+li {
+    list-style-type: none;
+}
+
+.visible {
     padding: 1rem;
-    height: 500px;
+    height: 700px;
     opacity: 1;
     transition: 0.2s all linear;
 }
 
-.oculto{
+.oculto {
     opacity: 0;
     height: 0px;
-  }
+}
 
+.formulariocontacto {
+    height: 800px;
+    width: 800px;
+    margin-left: 200px;
+    font-style: italic;
+}
 
+.submenu:hover {
+    display: block;
+}
 
+.submenu {
+    display: none;
+    min-width: 140px;
+}

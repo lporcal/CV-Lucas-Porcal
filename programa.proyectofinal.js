@@ -82,7 +82,7 @@ function abririnfo(boton) {
 //Funcion para apertura de ventanas auxiliares para desplegar la informacion dentro de la solapa
 
 function ventanaAuxiliar(ubicacion) {
-    window.open(ubicacion, "Detalle de información", "width= 1500, height= 2000, scrollbars= NO")
+    window.open(ubicacion,"Detalle de información", "width= 1000, height= 1500, scrollbars= NO")
 }
 
 //Recorre cada boton de los trabajos y cuando se le hace click, oculta todos los div
@@ -146,3 +146,4 @@ function mostrarcapacitacion(bcn){
             document.getElementById(capacitaciones[botoncap.indexOf(bcn)]).classList.remove ("oculto");
             document.getElementById(capacitaciones[botoncap.indexOf(bcn)]).classList.add ("visible");
     }
+
